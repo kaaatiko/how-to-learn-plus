@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/description/description.css);
@@ -65,24 +66,6 @@
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__title/khan__title.css);
-@import url(../blocks/resourses/resourses.css);
-@import url(../blocks/resourses/__logo-zone/resourses__logo-zone.css);
-@import url(../blocks/resourses/__logo/resourses__logo.css);
-@font-face {
-  font-weight: bold;
-  font-family: 'Inter';
-  src: url(../fonts/Inter-Bold.woff) format('woff'),
-      url(../fonts/Inter-Bold.woff2) format('woff2');
-}
-@font-face {
-  font-weight: normal;
-  font-family: 'Inter';
-  src: url(../fonts/Inter-Regular.woff2) format('woff2'),
-      url(../fonts/Inter-Regular.woff) format('woff');
-}
-@font-face {
-  font-weight: 600;
-  font-family: 'Inter';
-  src: url(../fonts/Inter-SemiBold.woff) format('woff'),
-      url(../fonts/Inter-SemiBold.woff2) format('woff2');
-}
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
